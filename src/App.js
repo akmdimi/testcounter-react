@@ -12,8 +12,8 @@ function App(){
         Current Value of the count is {counter}
       </h2>
       <button>Reset Counter</button>
-      <button onClick = {() => setCounter(counter+1)} >Increase Counter</button>
-      <button>Decrease Counter</button>
+      <button onClick = {() => setCounter (counter+1) } >Increase Counter</button>
+      <button onClick= {()=> setCounter (counter-1) }>Decrease Counter</button>
 
     </div>
   )
